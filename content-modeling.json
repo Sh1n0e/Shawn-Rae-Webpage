@@ -8,7 +8,8 @@
     "tools": ["Docker", "Linux", "SQL"],
     "domains": ["Networking", "Embedded Systems"]
   },
-  "projects": {
+  "projects": [ 
+    {
     "id": "mininet-odl-ntn",
     "title": "SDN Non-Terrestrial-Network Emulation",
     "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
@@ -28,4 +29,5 @@
       "demo": "",
   }
   }
+  ]
 }
