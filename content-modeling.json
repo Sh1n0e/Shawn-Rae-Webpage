@@ -1,18 +1,18 @@
 {
   "about": {
-    "short": " ",
+    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College ",
     "long": " "
   },
   "skills": {
-    "languages": "",
-    "tools": "",
-    "domains": " "
+    "languages": ["C", "Python", "C++"],
+    "tools": ["Docker", "Linux", "SQL"],
+    "domains": ["Networking", "Embedded Systems"]
   },
   "projects": {
-    "id": " ",
-    "title": " ",
-    "summary": " ",
-    "tech": [],
+    "id": "mininet-odl-ntn",
+    "title": "SDN Non-Terrestrial-Network Emulation",
+    "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
+    "tech": ["Mininet", "OpenDaylight", "Python", "Docker", "MySQL"],
     "links": {
       "github": "",
       "demo": ""
