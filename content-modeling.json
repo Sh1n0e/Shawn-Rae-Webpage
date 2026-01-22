@@ -1,0 +1,21 @@
+{
+  "about": {
+    "short": " ",
+    "long": " "
+  },
+  "skills": {
+    "languages": "",
+    "tools": "",
+    "domains": " "
+  },
+  "projects": {
+    "id": " ",
+    "title": " ",
+    "summary": " ",
+    "tech": [],
+    "links": {
+      "github": "",
+      "demo": ""
+    }
+  }
+}
