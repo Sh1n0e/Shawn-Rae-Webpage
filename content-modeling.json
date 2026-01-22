@@ -1,6 +1,6 @@
 {
   "about": {
-    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College ",
+    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College",
     "long": " "
   },
   "skills": {
@@ -8,26 +8,35 @@
     "tools": ["Docker", "Linux", "SQL"],
     "domains": ["Networking", "Embedded Systems"]
   },
-  "projects": [ 
+  "projects": [
     {
-    "id": "mininet-odl-ntn",
-    "title": "SDN Non-Terrestrial-Network Emulation",
-    "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
-    "tech": ["Mininet", "OpenDaylight", "Python", "Docker", "MySQL"],
-    "links": {
-      "github": "",
-      "demo": ""
+      "id": "mininet-odl-ntn",
+      "title": "SDN Non-Terrestrial-Network Emulation",
+      "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
+      "tech": ["Mininet", "OpenDaylight", "Python", "Docker", "MySQL"],
+      "links": {
+        "github": "",
+        "demo": ""
+      }
+    },
+    {
+      "id": "nokia-DCF",
+      "title": "Nokia Data Centre Fabric Lab",
+      "summary": "Recreated lab environment we got to configure via a free offerring of Nokia's Data Center Fabric Fundamental Certification",
+      "tech": ["Docker", "Containerlab", "Nokia SR-Linux", "BGP"],
+      "links": {
+        "github": "https://github.com/Shn0e/Nokia-Homelab",
+        "demo": ""
+      }
+    },
+    {
+      "id": "resume-webpage",
+      "title": "Resume Chat Bot",
+      "summary": "A chat bot that users can interact with to learn about myself, my skills, and my projects",
+      "tech": ["JSON", "Javascript"],
+      "links": {
+        "github": "https://github.com/Sh1n0e/Shawn-Rae-Webpage"
+      }
     }
-  },
-  {
-    "id": "Project-2",
-    "title": "title 2",
-    "summary": "", 
-    "tech": [],
-    "links": {
-      "github": "",
-      "demo": "",
-  }
-  }
   ]
 }
