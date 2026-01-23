@@ -1,7 +1,6 @@
 {
   "about": {
-    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College",
-    "long": " "
+    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College"
   },
   "skills": {
     "languages": ["C", "Python", "C++"],
@@ -33,7 +32,7 @@
       "id": "resume-webpage",
       "title": "Resume Chat Bot",
       "summary": "A chat bot that users can interact with to learn about myself, my skills, and my projects",
-      "tech": ["JSON", "Javascript"],
+      "tech": ["JSON", "Javascript", "REACT"],
       "links": {
         "github": "https://github.com/Sh1n0e/Shawn-Rae-Webpage"
       }
