@@ -1,11 +1,12 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { matchIntent } from './utils/intentMatcher';
 
 const ChatResumeUI = () => {
   // Keep all hooks at the top
   const [messages, setMessages] = useState([
     {
       type: 'bot',
-      content: "Hi, I am here to tell you all about my skills and projects. What would you like to know?",
+      content: "Hi, I am here to tell you all about me, my skills and projects. What would you like to know?",
       timestamp: new Date()
     }
   ]);
@@ -51,9 +52,10 @@ const ChatResumeUI = () => {
     // Simulating delay 
     setTimeout(() => {
       setIsTyping(false);
+      const {response} = matchIntent(userMessages.content);
       const botMessage = {
         type: 'bot',
-        content: "This is a placeholder response. Connect your JSON data here!",
+        content: response,
         timestamp: new Date()
       };
       setMessages(prev => [...prev, botMessage]);
@@ -64,7 +66,7 @@ const ChatResumeUI = () => {
     <div className="flex flex-col h-screen bg-gray-50">
       <div className="bg-white shadow-sm border-b border-gray-200 px-6 py-4">
         <h1 className="text-xl font-semibold text-gray-800">Resume Chat Assistant</h1>
-        <p className="text-sm text-gray-500">Ask about my skills, experience, and projects</p>
+        <p className="text-sm text-gray-500">Ask about me, my skills, and projects</p>
       </div>
 
       <div className="flex-1 overflow-y-auto px-4 py-6">
@@ -81,7 +83,7 @@ const ChatResumeUI = () => {
                     : 'bg-white text-gray-800 border border-gray-200'
                 }`}
               >
-                <p className="text-sm leading-relaxed">{message.content}</p>
+                <p className="text-sm leading-relaxed whitespace-pre-line">{message.content}</p>
               </div>
             </div>
           ))}
@@ -110,7 +112,7 @@ const ChatResumeUI = () => {
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
               onKeyDown={handleKeyPress}
-              placeholder="Ask about my skills, projects, or experience..."
+              placeholder="Ask about me, my skills, or my projects..."
               className="flex-1 p-3 border border-gray-300 rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-blue-500"
               rows="1"
             />
