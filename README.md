@@ -1,7 +1,3 @@
-# WHAT IS THIS 
+# Resume Chat Companion 
 
-This project is dedicated to me working on creating a chat bot style resume where the user can interact with it to be able to learn about me, my skills and my projects.
-
-Currently I will be starting with a rule based chat bot to ensure a streamlined process that won't go out of control.
-
-Eventually I will add AI as a way to rephrase responses, summarize longer descriptions on projects and work to provide a better conversational tone with the user.
+This project is a vibe coded project as a way for me to improve my skills with javascript and CSS and also use it as a platform to show off my personal projects, experience, skills etc.
