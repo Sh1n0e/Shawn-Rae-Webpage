@@ -1,12 +1,21 @@
 {
   "about": {
-    "short": "I am enrolled at Carleton Universities Bachelor's of Information, Networking stream, in collaboration with Algonquin College"
+    "short": "I am enrolled at Carleton University's Bachelor's of Information, Networking stream, in collaboration with Algonquin College"
   },
   "skills": {
-    "languages": ["C", "Python", "C++"],
+    "languages": ["C", "Python", "C++", "Java", "Javascript"],
     "tools": ["Docker", "Linux", "SQL"],
     "domains": ["Networking", "Embedded Systems"]
   },
+  "confidence": [
+    { "skill": "Python", "rating": 5 },
+    { "skill": "C", "rating": 3 },
+    { "skill": "C++", "rating": 3 },
+    { "skill": "Docker", "rating": 4 },
+    { "skill": "Linux", "rating": 4 },
+    { "skill": "SQL", "rating": 3 },
+    { "skill": "Networking", "rating": 4 }
+  ],
   "projects": [
     {
       "id": "mininet-odl-ntn",
@@ -14,7 +23,7 @@
       "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
       "tech": ["Mininet", "OpenDaylight", "Python", "Docker", "MySQL"],
       "links": {
-        "github": "",
+        "github": "https://github.com/quentinheredia/NET4000-Team-15",
         "demo": ""
       }
     },
@@ -24,15 +33,15 @@
       "summary": "Recreated lab environment we got to configure via a free offerring of Nokia's Data Center Fabric Fundamental Certification",
       "tech": ["Docker", "Containerlab", "Nokia SR-Linux", "BGP"],
       "links": {
-        "github": "https://github.com/Shn0e/Nokia-Homelab",
+        "github": "https://github.com/Sh1n0e/Nokia-Homelab",
         "demo": ""
       }
     },
     {
       "id": "resume-webpage",
       "title": "Resume Chat Bot",
-      "summary": "A chat bot that users can interact with to learn about myself, my skills, and my projects",
-      "tech": ["JSON", "Javascript", "REACT"],
+      "summary": "A chat bot that users can interact with to learn about myself, my skills, and my projects. You are currently looking at it live as we speak right now!",
+      "tech": ["JSON", "Javascript", "REACT", "HTML", "CSS"],
       "links": {
         "github": "https://github.com/Sh1n0e/Shawn-Rae-Webpage"
       }

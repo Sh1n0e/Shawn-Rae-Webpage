@@ -1,3 +1,10 @@
+/* Global styles & customization:
+   - For theme colors and fonts, edit `tailwind.config.js` (theme.extend).
+   - Add custom base styles or CSS variables here if you prefer not to use Tailwind utilities.
+
+   Example CSS variables you can add here:
+   :root { --app-accent: #2563eb; --app-bg: #f8fafc; }
+*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
