@@ -4,7 +4,7 @@
   },
   "skills": {
     "languages": ["C", "Python", "C++", "Java", "Javascript"],
-    "tools": ["Docker", "Linux", "SQL"],
+    "tools": ["Docker", "Linux", "SQL", "Windows", "Git"],
     "domains": ["Networking", "Embedded Systems"]
   },
   "confidence": [
@@ -20,8 +20,8 @@
     {
       "id": "mininet-odl-ntn",
       "title": "SDN Non-Terrestrial-Network Emulation",
-      "summary": "Building virtual Non-Terrestrial Network using Mininet with OpenDaylight as the controller. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
-      "tech": ["Mininet", "OpenDaylight", "Python", "Docker", "MySQL"],
+      "summary": "Building virtual Non-Terrestrial Network using Linux Network Namespaces, host bridging and FRR containers using OSPF as a routing protocol. We also are using Machine Learning to predict near-future link/path delay to aid in routing decisions.",
+      "tech": ["Linux", "Python", "Docker", "MySQL", "Network namespaces", "OSPF"],
       "links": {
         "github": "https://github.com/quentinheredia/NET4000-Team-15",
         "demo": ""
