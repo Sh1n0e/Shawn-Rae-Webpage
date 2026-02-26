@@ -1,11 +1,11 @@
 {
   "about": {
-    "short": "I am enrolled at Carleton University's Bachelor's of Information, Networking stream, in collaboration with Algonquin College"
+    "short": "I am enrolled at Carleton University's Bachelor's of Information, Networking in collaboration with Algonquin College"
   },
   "skills": {
     "languages": ["C", "Python", "C++", "Java", "Javascript"],
     "tools": ["Docker", "Linux", "SQL", "Windows", "Git"],
-    "domains": ["Networking", "Embedded Systems"]
+    "domains": ["Networking", "Embedded Systems", "Database Management"]
   },
   "confidence": [
     { "skill": "Python", "rating": 5 },
@@ -44,6 +44,15 @@
       "tech": ["JSON", "Javascript", "REACT", "HTML", "CSS"],
       "links": {
         "github": "https://github.com/Sh1n0e/Shawn-Rae-Webpage"
+      }
+    },
+    {
+      "id": "kitchen-tracker",
+      "title": "Kitchen Supply Tracker",
+      "summary": "Full stack web application to track kitchen supplies and their quantities separated by locations and specified by category of item. Contains full CRUD functionality to interact with the database solely through User Interface",
+      "tech": ["PostgreSQL", "REACT", "NextJS"],
+      "links": {
+        "github": "https://github.com/Sh1n0e/supply-tracker"
       }
     }
   ]
